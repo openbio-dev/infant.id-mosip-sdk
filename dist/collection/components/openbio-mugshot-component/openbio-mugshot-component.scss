@@ -1,0 +1,112 @@
+.canvas {
+  border: 1px solid #cccccc;
+}
+
+.action-buttons-container {
+  padding-top: 14px;
+  max-width: 486px !important;
+}
+
+.checkbox {
+  margin-right: 16px;
+  font-size: 12px;
+
+  input {
+    margin-right: 8px;
+  }
+}
+
+.device-status-container {
+  margin: 0 0 20px 0;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .progress {
+    width: 164px;
+  }
+}
+
+.settings-container {
+  width: 630px;
+}
+
+.select {
+  margin-right: 16px;
+
+  select {
+    min-width: 160px;
+  }
+}
+
+.preview-result {
+  height: 320px;
+
+  img {
+    max-height: 320px;
+    width: auto;
+    border: 1px solid #cccccc;
+    object-fit: contain;
+  }
+}
+
+.tab-content {
+  min-height: 700px;
+}
+
+.label {
+  font-size: 0.8rem;
+}
+
+.mugshot-photos-container {
+  margin-top: 30px;
+
+  .mugshot-photo {
+    margin: 20px;
+    width: 200px;
+    position: relative;
+
+    img {
+      width: 200px;
+    }
+  }
+}
+
+.mugshot-form {
+  margin-top: 30px;
+}
+
+.mugshot-preview-result {
+  height: 300px;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+  .mugshot-photo {
+    position: relative;
+    width: 200px;
+    margin: 18px;
+
+    .mugshot-remove-photo-button {
+      position: absolute;
+      opacity: 0;
+      font-size: 12px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transition: all .4s ease-in-out;
+    }
+
+    &:hover {
+      .mugshot-remove-photo-button {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.mugshot-photo-label {
+  font-size: 10px;
+  margin-left: 20px;
+}

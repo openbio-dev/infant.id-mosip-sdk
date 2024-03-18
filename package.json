@@ -1,0 +1,64 @@
+{
+  "name": "openbio-components",
+  "version": "0.1.3",
+  "description": "Openbio view components",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "unpkg": "dist/ionic.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "release": "bash ./release.sh",
+    "build": "stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.9.55",
+    "bulma": "^0.7.2",
+    "bulma-checkradio": "^1.1.1",
+    "bulma-slider": "^2.0.4",
+    "bulma-switch": "^2.0.0",
+    "changedpi": "^1.0.4",
+    "cropperjs": "^1.5.11",
+    "face-api.js": "^0.22.2",
+    "hex-to-rgba": "^2.0.1",
+    "mobx": "^5.9.0",
+    "moment": "^2.23.0",
+    "sweetalert2": "^8.11.6"
+  },
+  "devDependencies": {
+    "@stencil/core": "^0.18.1",
+    "@stencil/postcss": "^0.1.0",
+    "@stencil/sass": "^0.1.1",
+    "@types/autoprefixer": "^9.1.1",
+    "@types/jest": "23.3.12",
+    "@types/puppeteer": "1.6.4",
+    "autoprefixer": "^9.4.7",
+    "jest": "23.6.0",
+    "jest-cli": "23.6.0",
+    "postcss-normalize": "^7.0.1",
+    "postcss-pxtorem": "^4.0.1",
+    "puppeteer": "1.8.0",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "webdriver-manager": "^12.1.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)$": "<rootDir>/node_modules/@stencil/core/testing/jest.preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json",
+      "jsx"
+    ]
+  }
+}

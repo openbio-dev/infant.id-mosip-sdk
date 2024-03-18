@@ -1,0 +1,172 @@
+.canvas {
+  border: 1px solid #cccccc;
+}
+
+.action-buttons-container {
+  padding-top: 14px;
+  max-width: 486px !important;
+}
+
+.anomaly-buttons-container {
+  max-width: 486px !important;
+}
+
+.fab-icon {
+  background-color: var(--secondary);
+  border-radius: 100%!important;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+  transition: 0.5s;
+}
+
+.fab-icon-active {
+  background-color: var(--secondary) !important;
+  border: 3px groove red;
+  padding: 5px !important;
+}
+
+.fab-icon:hover {
+  background-color: var(--secondary);
+  cursor: pointer;
+}
+
+.icon-text {
+  display: grid;
+  font-size: 14px;
+  margin: 20px 0 0 0;
+  padding: 6px;
+  white-space: nowrap;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.evaluation {
+  text-align: left;
+
+  .info {
+    padding: 0 0 10px 0;
+
+    div {
+      font-size: 12px;
+      line-height: 0.6rem;
+    }
+
+    span {
+      font-size: 11px;
+    }
+  }
+
+}
+
+.checkbox {
+  margin-right: 16px;
+  font-size: 12px;
+
+  input {
+    margin-right: 8px;
+  }
+}
+
+.device-status-container {
+  margin: 0 0 20px 0;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .progress {
+    width: 164px;
+    background-color: #00C851 !important;
+  }
+}
+
+.settings-container {
+  width: 630px;
+}
+
+.select {
+  margin-right: 16px;
+
+  select {
+    min-width: 160px;
+  }
+}
+
+.preview-result {
+  height: 380px;
+
+  img {
+    max-height: 380px !important;
+    height: 380px !important;
+    width: auto;
+    border: 1px solid #cccccc;
+    object-fit: contain;
+  }
+}
+
+.tab-content {
+  min-height: 700px;
+}
+
+.label {
+  font-size: 0.8rem;
+}
+
+.face-template {
+  position: absolute;
+  width: 460px;
+  height: 300px;
+  opacity: 0.3;
+}
+
+.face-template-akyscam {
+  position: absolute;
+  width: 226px;
+  opacity: 0.3;
+  transform: translate(50%, 42%);
+}
+
+.validation-icons {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 460px;
+  height: 300px;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span {
+    font-size: 10rem !important;
+    color: var(--secondary);
+    opacity: 1;
+  }
+}
+
+#image-adjustment {
+  height: 65%;
+  width: 50%;
+}
+
+#close-image-adjustment {
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.centrelize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

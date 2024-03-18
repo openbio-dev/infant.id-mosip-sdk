@@ -1,0 +1,130 @@
+.canvas {
+  border: 1px solid #cccccc;
+}
+
+.action-buttons-container {
+  padding-top: 14px;
+  max-width: 486px !important;
+}
+
+.evaluation {
+  text-align: left;
+
+  .info {
+    padding: 0 0 10px 0;
+
+    div {
+      font-size: 12px;
+    }
+
+    span {
+      font-size: 11px;
+    }
+  }
+
+}
+
+.face-canvas {
+  position: absolute;
+}
+
+.status-item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #d8d8d8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 19px;
+}
+
+.status-item-line-in-canvas {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.margin-left-fix {
+  margin-left: -30px !important
+}
+
+.webcam-video {
+  height: 250px !important;
+  margin-top: 10px;
+  width: auto;
+}
+
+.webcam-snapshot {
+  height: 250px !important;
+  margin-top: 8px;
+  width: auto;
+}
+
+.btn-primary {
+  align-items: center;
+  border-radius: 4px;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 0.75rem;
+  letter-spacing: .0892857143em;
+  justify-content: center;
+  outline: 0;
+  padding: 5px;
+  position: relative;
+  text-decoration: none;
+  text-indent: .0892857143em;
+  text-transform: uppercase;
+  transition-duration: .28s;
+  transition-property: box-shadow,transform,opacity;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.3), 0 4px 5px 0 rgba(0, 0, 0, 0.3), 0 1px 10px 0 rgba(0, 0, 0, 0.3);
+  background-color: var(--secondary);
+  color: #FFFFFF;
+  border: 1px solid var(--secondary) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary);
+  color: #FFFFFF !important;
+}
+
+.face-detection {
+  height: 250px;
+  margin-bottom: 5px;
+}
+
+.face-detection-text {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: var(--secondary);
+}
+
+.overlay {
+  position: absolute;
+  width: 333px;
+  height: 250px;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+
+  span {
+    font-size: 10rem !important;
+    color: var(--secondary);
+    opacity: 1;
+  }
+}

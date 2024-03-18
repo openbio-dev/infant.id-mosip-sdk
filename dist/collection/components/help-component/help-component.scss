@@ -1,0 +1,24 @@
+.status-item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #d8d8d8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  position: absolute;
+  right: 0;
+}
+
+.hover-cursor:hover {
+  cursor: pointer;
+}
+
+.bottom-border-radius-5 {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

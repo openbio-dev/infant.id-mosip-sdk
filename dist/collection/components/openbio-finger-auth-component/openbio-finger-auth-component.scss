@@ -1,0 +1,65 @@
+.canvas {
+  border: 1px solid #cccccc;
+}
+
+.action-buttons-container {
+  padding-top: 14px;
+  max-width: 486px !important;
+}
+
+.evaluation {
+  text-align: left;
+
+  .info {
+    padding: 0 0 10px 0;
+
+    div {
+      font-size: 12px;
+    }
+
+    span {
+      font-size: 11px;
+    }
+  }
+
+}
+
+.finger-image {
+  margin-left: 40px;
+}
+
+.status-item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #d8d8d8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 19px;
+}
+
+.status-item-line-in-canvas {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.roll-status0 {
+  opacity: 0.3;
+}
+.roll-status1 {
+  background-color: #d91628;
+}
+.roll-status2, .roll-status3 {
+  background-color: #7ed321;
+}
+
+.margin-left-fix {
+  margin-left: -30px !important
+}

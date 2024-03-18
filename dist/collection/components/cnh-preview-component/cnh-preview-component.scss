@@ -1,0 +1,23 @@
+.cnh-font {
+  font-size: 0.51rem;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.cnh-position {
+  position: absolute;
+}
+
+.cnh-color-default {
+  color: black;
+}
+
+.cnh-color-red {
+  color: #dd0000;
+}
+
+.centrelize {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

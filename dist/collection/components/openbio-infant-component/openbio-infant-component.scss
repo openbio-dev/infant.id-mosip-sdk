@@ -1,0 +1,129 @@
+.canvas {
+  border: 1px solid #cccccc;
+}
+
+.action-buttons-container {
+  padding-top: 14px;
+  max-width: 486px !important;
+}
+
+.anomaly-buttons-container {
+  max-width: 486px !important;
+}
+
+.evaluation {
+  text-align: left;
+
+  .info {
+    padding: 0 0 10px 0;
+
+    div {
+      font-size: 12px;
+    }
+
+    span {
+      font-size: 11px;
+    }
+  }
+}
+
+.checkbox {
+  margin-right: 16px;
+  font-size: 12px;
+
+  input {
+    margin-right: 8px;
+  }
+}
+
+.device-status-container {
+  margin: 0 0 15px 0;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .progress {
+    width: 164px;
+  }
+}
+
+.settings-container {
+  margin: 20px 0 30px 0;
+
+  .settings-result-container {
+    margin-top: 20px;
+  }
+}
+
+.capture-result-container {
+  margin-bottom: 20px;
+}
+
+.tab-content {
+  min-height: 700px;
+}
+
+.selection-title {
+  margin: 10px 0;
+  padding: 6px 0;
+
+  span {
+    font-size: 1em;
+  }
+}
+
+.finger-image {
+  margin-left: 40px;
+}
+
+.hand-status {
+  margin-bottom: 15px;
+}
+
+.margin-name-hand {
+  margin-bottom: 2px;
+}
+
+.status-item {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #d8d8d8;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 32px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 19px;
+}
+
+.roll-info {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+.roll-status-text {
+  font-size: 13px;
+}
+
+.status-item-line-in-canvas {
+  display: block;
+  margin-top: 20px;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.roll-status0 {
+  opacity: 0.3;
+}
+.roll-status1 {
+  background-color: #d91628;
+}
+.roll-status2,
+.roll-status3 {
+  background-color: #7ed321;
+}

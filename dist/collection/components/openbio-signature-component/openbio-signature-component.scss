@@ -1,0 +1,53 @@
+.canvas {
+  border: 1px solid #cccccc;
+}
+
+.action-buttons-container {
+  padding-top: 14px;
+  max-width: 486px !important;
+}
+
+.anomaly-buttons-container {
+  max-width: 486px !important;
+}
+
+.checkbox {
+  margin-right: 16px;
+  font-size: 12px;
+
+  input {
+      margin-right: 8px;
+  }
+}
+
+.device-status-container {
+  margin: 0 0 30px 0;
+
+  .title {
+    margin-bottom: 10px;
+  }
+
+  .progress {
+    width: 164px;
+  }
+}
+
+.preview-result {
+  height: 300px;
+
+  img {
+    height: 300px;
+    width: 400px;
+    border: 1px solid #cccccc;
+    object-fit: contain !important;
+    padding: 3px;
+  }
+}
+
+.tab-content {
+  min-height: 700px;
+}
+
+.bg-color-primary {
+  background-color: var(--primary) !important;
+}

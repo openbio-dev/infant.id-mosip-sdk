@@ -1,0 +1,54 @@
+strong {
+  color: var(--primary);
+  font-size: 0.85em;
+}
+
+span {
+  color: var(--primary);
+  font-size: 0.75em;
+}
+
+.validation-icons {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 100%;
+}
+
+.left-box {
+  margin-bottom: 12px;
+  margin-left: 29px !important;
+  margin-top: 5px !important;
+}
+
+.left-box-border-success {
+  border: 1px solid var(--primary);
+}
+
+.left-box-border-danger {
+  border: 1px solid var(--primary);
+}
+
+.width {
+  width: 90% !important
+}
+
+.width-detached {
+  width: 80% !important
+}
+
+.right-box {
+  position: relative;
+  margin-bottom: 12px;
+  margin-left: 10px !important;
+  margin-top: 5px !important;
+}
+
+.right-box-border-success {
+  border: 1px solid var(--primary);
+}
+
+.right-box-border-danger {
+  border: 1px solid var(--primary);
+}
