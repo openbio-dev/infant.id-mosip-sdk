@@ -1,10 +1,10 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/openbio-dev/openbio-components">Openbio Components</a>
+  <a href="https://github.com/openbio-dev/infant.id-mosip-sdk">Infant.ID Mosip SDK</a>
   <br>
 </h1>
 
-<h4 align="center">Componentes do pacote openbio-view-components</h4>
+<h4 align="center">Componentes do pacote</h4>
 
 ## Instalação
 Siga os passos a baixo para instalação da biblioteca em seu projeto.
